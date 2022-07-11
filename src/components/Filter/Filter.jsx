@@ -6,12 +6,7 @@ const Filter = ({ title, value, onChange }) => {
   return (
     <label className={s['label']}>
       <span className={s['text']}>{title}</span>
-      <input
-        type="text"
-        name="filter"
-        value={value}
-        onChange={onChange}
-      ></input>
+      <input type="text" name="filter" value={value} onChange={onChange} />
     </label>
   );
 };
